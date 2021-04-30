@@ -1,0 +1,12 @@
+.serviceImg{
+    height: 200px;
+    width: 325px;
+    border-radius: 12px 12px 0 0 ;
+}
+.projectCard{
+    background-color: #172A45;
+    height: 475px;
+    width: 325px;
+    border-radius:12px;
+    color: rgb(172, 166, 166);
+}
