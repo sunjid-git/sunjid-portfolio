@@ -9,7 +9,7 @@ const Header = () => {
     <nav className=" navbar navbar-expand-lg sticky-top background">
         <div className="container-fluid ml-4 mr-4">
             <h1 className="navbar-brand text-success font-weight-bold">
-            <Link className="text-success text-decoration-none" to={`/home`}>Sunjid Hasan</Link>
+            <Link className="text-success text-decoration-none" to={`/`}>Sunjid Hasan</Link>
                 </h1>
 
             <div className="collapse navbar-collapse justify-content-end">
