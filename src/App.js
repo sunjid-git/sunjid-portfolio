@@ -1,51 +1,45 @@
-
 import './App.css';
-import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import Works from './Components/Works/Works';
-import Blog from './Components/Blog/Blog';
-import Contact from './Components/Contact/Contact';
 import NoMatch from './Components/NoMatch/NoMatch';
+import WorkPage from './Components/WorkPage/WorkPage';
+import BlogPage from './Components/BlogPage/BlogPage';
+import ContactPage from './Components/ContactPage/ContactPage';
 
 function App() {
   return (
     <Router>
       <Switch>
 
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-
         <Route path="/home">
           <Home></Home>
         </Route>
 
-        <Router path="/about">
+        <Route path="/about">
           <About></About>
-        </Router>
+        </Route>
 
-        <Router path="/works">
-          <Works></Works>
-        </Router>
+        <Route path="/works">
+          <WorkPage></WorkPage>
+        </Route>
 
-        <Router path="/blog">
-          <Blog></Blog>
-        </Router>
+        <Route path="/blog">
+          <BlogPage></BlogPage>
+        </Route>
 
-        <Router path="/contact">
-          <Contact></Contact>
-        </Router>
+        <Route path="/contact">
+          <ContactPage></ContactPage>
+        </Route>
 
-        <Router path="*">
+        <Route path="*">
           <NoMatch></NoMatch>
-        </Router>
+        </Route>
 
       </Switch>
     </Router>

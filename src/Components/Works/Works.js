@@ -13,51 +13,59 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Works = () => {
     return (
-        <section>
+        <section className="background">
         <div className="container">
-            <h1 className="text-center text-light m-5">Works</h1>
+            <h1 className="text-center text-success font-weight-bolder mb-5 pt-5">Works</h1>
             <div className="row">
                     
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="projectCard mb-5">
                         <img className="serviceImg" src={p1} alt=""/>
-                        <h5 className="text-center pt-4">Bengal It Plus</h5>
+                        <h5 className="text-center text-success pt-4">Bengal It Plus</h5>
 
                         <p className="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero, in id, modi illum dicta veritatis porro labore eaque pariatur exercitationem, quia illo explicabo at.</p>
 
-                        <div className="text-center text-success">
-                        <FontAwesomeIcon icon={faGithub} className="mr-5"/> 
-                        <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+                        <div className="text-center">
+                        <a href="https://github.com/sunjid-git/bengal-it-plus" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+
+                        <a href="https://bengal-it-plus.web.app/" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className=" text-success ml-5 fa-lg"/></a>
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="projectCard mb-5">
                         <img className="serviceImg" src={p2} alt=""/>
-                        <h5 className="text-center p-3">Bengal Shop</h5>
+                        <h5 className="text-center text-success p-3">Bengal Shop</h5>
 
                         <p className="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero, in id, modi illum dicta veritatis porro labore eaque pariatur exercitationem, quia illo explicabo at.</p>
                         
-                        <div className="text-center text-success">
-                        <FontAwesomeIcon icon={faGithub} className="mr-5"/> 
-                        <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+                        <div className="text-center">
+                        <a href="https://github.com/sunjid-git/bengal-shop-client" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+
+                        <a href="https://bengalshop-buy.web.app/home" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className=" text-success ml-5 fa-lg"/></a>
                         </div>
+
                     </div>
                 </div>
 
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="projectCard mb-5">
                         <img className="serviceImg" src={p3} alt=""/>
-                        <h5 className="text-center p-3">Hotel Adriano</h5>
+                        <h5 className="text-center text-success p-3">Hotel Adriano</h5>
 
                         <p className="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero, in id, modi illum dicta veritatis porro labore eaque pariatur exercitationem, quia illo explicabo at.</p>
 
-                        <div className="text-center text-success">
-                        <FontAwesomeIcon icon={faGithub} className="mr-5"/> 
-                        <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+                         <div className="text-center">
+                        <a href="https://github.com/sunjid-git/Hotel-Adriano-Porco-Rosso/" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+
+                        <a href="https://sunjid-git.github.io/Hotel-Adriano-Porco-Rosso/" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className=" text-success ml-5 fa-lg"/></a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -67,13 +75,15 @@ const Works = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="projectCard mb-5">
                         <img className="serviceImg" src={p4} alt=""/>
-                        <h5 className="text-center p-3">Elite Soccer Craze</h5>
+                        <h5 className="text-center text-success p-3">Elite Soccer Craze</h5>
 
                         <p className="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero, in id, modi illum dicta veritatis porro labore eaque pariatur exercitationem, quia illo explicabo at.</p>
 
-                        <div className="text-center text-success">
-                        <FontAwesomeIcon icon={faGithub} className="mr-5"/> 
-                        <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+                        <div className="text-center">
+                        <a href="https://github.com/sunjid-git/elite-soccer-craze" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+
+                        <a href="https://youthful-hawking-c6635a.netlify.app/" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className=" text-success ml-5 fa-lg"/></a>
                         </div>
                     
                     </div>
@@ -82,28 +92,34 @@ const Works = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="projectCard mb-5">
                         <img className="serviceImg" src={p5} alt=""/>
-                        <h5 className="text-center p-3">Bengal Transport</h5>
+                        <h5 className="text-center text-success p-3">Bengal Transport</h5>
 
                         <p className="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero, in id, modi illum dicta veritatis porro labore eaque pariatur exercitationem, quia illo explicabo at.</p>
 
-                        <div className="text-center text-success">
-                        <FontAwesomeIcon icon={faGithub} className="mr-5"/> 
-                        <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+                        <div className="text-center">
+                        <a href="https://github.com/sunjid-git/bengal-transport" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+
+                        <a href="https://keen-lewin-28a3ed.netlify.app/" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className=" text-success ml-5 fa-lg"/></a>
                         </div>
+
                     </div>
                 </div>
 
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="projectCard mb-5">
                         <img className="serviceImg" src={p6} alt=""/>
-                        <h5 className="text-center p-3">Portfolio website</h5>
+                        <h5 className="text-center text-success p-3">Portfolio website</h5>
 
                         <p className="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero, in id, modi illum dicta veritatis porro labore eaque pariatur exercitationem, quia illo explicabo at.</p>
 
-                        <div className="text-center text-success">
-                        <FontAwesomeIcon icon={faGithub} className="mr-5"/> 
-                        <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+                         <div className="text-center">
+                        <a href="https://github.com/sunjid-git/Portfolio" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+
+                        <a href="https://sunjid-git.github.io/Portfolio/" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className=" text-success ml-5 fa-lg"/></a>
                         </div>
+
                     </div>
                 </div>
             </div>

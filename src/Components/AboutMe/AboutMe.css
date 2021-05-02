@@ -1,3 +1,58 @@
 .aboutMe{
-    height:505px;
+    height: 560px;
+}
+.sunjidImg{
+    height:200px;
+    border-radius:50%;
+}
+.textAbout{
+    font-size: 20px;
+}
+.aboutIcon{
+    color: rgb(154, 161, 157);
+    margin: 12px;
+    transition: 2s, 2s, 2s;
+}
+.aboutIcon:hover{
+    color: green;
+    transform: translateY(-5px);
+    transition: .5s ease-out;
+} 
+
+.aboutOneBtn{
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid green;
+    color: green;
+    border-radius: 8px;
+    height: 35px;
+    margin: 10px;
+    width: 135px;
+    padding: 5px;
+    transition: 1s, 1s, 1s;
+}
+.aboutOneBtn:hover{
+    background-color: green;
+    color: rgb(206, 192, 192);
+    transition: .5s ease-out;
+    text-decoration-line: none;
+}
+.aboutTwoBtn{
+    font-size: 20px;
+    background-color: green;
+    color: rgb(206, 192, 192);
+    border-radius: 8px;
+    height: 35px;
+    margin: 10px;
+    width: 170px;
+    padding: 0 10px 0px 1px0;;
+    padding-top: 2px;
+    transition: 1s, 1s, 1s;
+}
+.aboutTwoBtn:hover{
+    background-color: rgb(3, 109, 3);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s ease-out;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
+import FixedSideBar from '../FixedSideBar/FixedSideBar';
 import HomePage from '../HomePage/HomePage';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
@@ -10,14 +10,16 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <section className="background">
+        <div className="background">
+            <FixedSideBar></FixedSideBar>
             <Header></Header>
             <HomePage></HomePage>
             <Works></Works>
             <Blog></Blog>
             <Contact></Contact>
             <Footer></Footer>
-        </section>
+            Hell0
+        </div>
     );
 };
 

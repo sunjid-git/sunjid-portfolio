@@ -1,27 +1,13 @@
 import React from 'react';
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
-
 import bd from '../../../images/bdFlag.gif';
 
 const Footer = () => {
     return (
-        <div className="text-center p-4 background">
-            <p className="text-light">
-            Designed & Built by <i className="text-success">Sunjid Hasan</i>
-            <br/>
-           
-            </p>
+        <div className="text-center background p-4">
+            <p className="text-light">From<img className="bd ml-2 mr-2" src={bd} alt=""/> with love <i className="text-success">Sunjid Hasan</i> 
+            <strong className="footerSpace"></strong>{(new Date()).getFullYear()}</p>
 
-            <p className="text-light">
-               
-                <img className="bd" src={bd} alt=""/>
-                <FontAwesomeIcon icon={faStar} /> 
-                <strong className="footerSpace">Star &</strong> 
-                <FontAwesomeIcon icon={faCodeBranch} className="footerSpace"/>
-                <strong className="footerSpace">Forks - </strong>{(new Date()).getFullYear()} 
-            </p>
         </div>
     );
 };

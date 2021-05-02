@@ -1,5 +1,15 @@
-.contact{
-    margin:150px; 
-    height: 250px;
-    
+.contact{  
+    height: 100%;
+}
+.sendMessage{
+    background-color: #0A192F;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 8px;
+    color: green;
+    font-weight: bolder;
+}
+.sendMessage:hover{
+    background-color: green;
+    color: white;
 }
