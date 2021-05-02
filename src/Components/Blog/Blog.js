@@ -7,7 +7,9 @@ const Blog = () => {
     return (
         <div className="background">
             <div className="container">
-            <h1 className="text-center text-success font-weight-bolder p-5">Blog</h1>
+            <h1 className="text-center text-success font-weight-bolder p-5">
+                Blog
+            </h1>
             <div className="row">
                     
                 <div className="col-md-4 d-flex justify-content-center">

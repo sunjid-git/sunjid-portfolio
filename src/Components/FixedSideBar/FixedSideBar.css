@@ -4,6 +4,7 @@
     top: 50%;
     left: 3%;
     transform: translateY(-50%);
+    z-index: 9999;
 }
 .social ul{
     margin: 0;
@@ -25,5 +26,6 @@
     text-align: center;
     position: relative;
 }
+
 
 

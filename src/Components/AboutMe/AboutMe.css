@@ -27,7 +27,8 @@
     border-radius: 8px;
     height: 35px;
     margin: 10px;
-    width: 135px;
+    width: 185px;
+    text-align: center;
     padding: 5px;
     transition: 1s, 1s, 1s;
 }
@@ -44,8 +45,8 @@
     border-radius: 8px;
     height: 35px;
     margin: 10px;
-    width: 170px;
-    padding: 0 10px 0px 1px0;;
+    width: 185px;
+    padding: 0 10px 0px 10px;;
     padding-top: 2px;
     transition: 1s, 1s, 1s;
 }

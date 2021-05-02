@@ -1,7 +1,7 @@
 import React from 'react';
 import './FixedSideBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBlog, faHome, faLayerGroup, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import {faHome, faLayerGroup, faUserTie } from '@fortawesome/free-solid-svg-icons';
 import { faComments, faEdit } from '@fortawesome/free-regular-svg-icons';
 import { Link } from 'react-router-dom';
 const FixedSideBar = () => {
