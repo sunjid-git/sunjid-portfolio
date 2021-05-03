@@ -1,16 +1,24 @@
 
-import { faEdit } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRedhat } from '@fortawesome/free-brands-svg-icons';
+
+
+
 const Header = () => {
     return (
     <nav className=" navbar navbar-expand-lg sticky-top background">
         <div className="container-fluid ml-4 mr-4">
-            <h1 className="navbar-brand text-success font-weight-bold">
-            <Link className="text-success text-decoration-none" to={`/`}>Sunjid Hasan</Link>
-                </h1>
+            <h1 className="navbar-brand font-weight-bold">
+            <Link className="text-success text-decoration-none" to={`/`}>
+           Sunjid Hasan
+           </Link>
+           <FontAwesomeIcon icon={faRedhat} className="sideIcon ml-2 text-light fa-lg" />
+            </h1>
 
             <div className="collapse navbar-collapse justify-content-end">
 

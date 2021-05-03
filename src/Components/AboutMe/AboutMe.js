@@ -26,7 +26,7 @@ const AboutMe = () => {
                 </a>   
             </div>
 
-            <p className="text-light textAbout">A self-taught software developer with a Bachelor's in  <br/> Computer Science and Engineering. Besides programming all day,  <br/> he has a passion for writing about himself in third person.</p>
+            <p className="textAbout">Hi, Glad to meet you... <br/> I am a self-taught front-end web developer with a Bachelor's <br/> in Computer Science and Engineering. I count myself as a continuous <br/> learner  and committed to developing myself with <br/>  trial, error and success in the way of my learning path... </p>
            </div>
 
             <div className=" d-flex justify-content-center">   
