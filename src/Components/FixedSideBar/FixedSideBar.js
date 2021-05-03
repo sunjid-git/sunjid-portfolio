@@ -10,31 +10,31 @@ const FixedSideBar = () => {
         <ul>
             <li>
             <Link className="text-light" to={`/home`}>
-                <FontAwesomeIcon icon={faHome} className="sideIcon" />
+                <FontAwesomeIcon icon={faHome} className="sideIcon aboutIcon" />
             </Link>
             </li>
 
             <li>
             <Link className="text-light" to={`/about`}>
-                <FontAwesomeIcon icon={faUserTie} className="sideIcon" />
+                <FontAwesomeIcon icon={faUserTie} className="sideIcon aboutIcon" />
             </Link>
             </li>
 
             <li>
             <Link className="text-light" to={`/works`}>
-                <FontAwesomeIcon icon={faLayerGroup} className="sideIcon" /> 
+                <FontAwesomeIcon icon={faLayerGroup} className="sideIcon aboutIcon" /> 
             </Link>
             </li>
 
             <li>
             <Link className="text-light" to={`/blog`}>
-                <FontAwesomeIcon icon={faEdit} className="sideIcon"/> 
+                <FontAwesomeIcon icon={faEdit} className="sideIcon aboutIcon"/> 
             </Link>
             </li>
 
             <li>
             <Link className="text-light" to={`/contact`}>
-                <FontAwesomeIcon icon={faComments} className="sideIcon"/>
+                <FontAwesomeIcon icon={faComments} className="sideIcon aboutIcon"/>
             </Link>
             </li>
 
