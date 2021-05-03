@@ -26,8 +26,12 @@ const AboutMe = () => {
                 </a>   
             </div>
 
-            <p className="textAbout">Hi, Glad to meet you... <br/> I am a self-taught front-end web developer with a Bachelor's <br/> in Computer Science and Engineering. I count myself as a continuous <br/> learner  and committed to developing myself with <br/>  trial, error and success in the way of my learning path... </p>
+       
+       
+           
            </div>
+
+           <p className="textAbout text-center mb-5">Hi, Glad to meet you... <br/> I am a self-taught front-end web developer with a Bachelor's <br/> in Computer Science and Engineering. I count myself as a continuous <br/> learner  and committed to developing myself with <br/>  trial, error and success in the way of my learning path... </p>
 
             <div className=" d-flex justify-content-center">   
                 <Link  to={`/contact`}>

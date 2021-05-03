@@ -10,9 +10,10 @@ const Footer = () => {
     return (
         <div className="text-center background p-4 footer">
             <p className="text-light">From<img className="bd ml-2 mr-2" src={bd} alt=""/> With 
-            <FontAwesomeIcon icon={faHeart} className=" text-danger fa-lg ml-2 mr-1" /> by
+            <FontAwesomeIcon icon={faHeart} className=" text-danger fa-lg ml-2 mr-1" /> By
              <i className="text-success ml-1"> Sunjid Hasan</i> -
-            <strong className="footerSpace"></strong>{(new Date()).getFullYear()}</p>
+            <strong className="footerSpace"></strong>{(new Date()).getFullYear()}
+            </p>
 
         </div>
     );

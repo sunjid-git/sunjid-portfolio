@@ -8,6 +8,7 @@
     border-radius: 8px;
     color: green;
     font-weight: bolder;
+    width: 125px;
 }
 .sendMessage:hover{
     background-color: green;

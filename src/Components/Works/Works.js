@@ -69,28 +69,29 @@ const Works = () => {
                     </div>
                 </div>
 
-                <div className="col-md-4 d-flex justify-content-center">
-                    <div className="projectCard mb-5">
-                        <img className="serviceImg" src={p3} alt=""/>
-                        <h5 className="text-center text-success p-3">Hotel Adriano</h5>
+                
 
-                        <p className="p-2 text-center projectDesc">Static restaurant website design with relevent product items and with some detailed information. It was designed to get a clear concept of basic web development.</p>
+                <div className="col-md-4 d-flex justify-content-center">
+                <div className="projectCard mb-5">
+                    <img className="serviceImg" src={p6} alt=""/>
+                    <h5 className="text-center text-success p-3">My Portfolio website</h5>
+
+                    <p className="p-2 text-center projectDesc">This is my personal portfolio website with minimalistic design implementation. Kept it simple and smooth. Includes several sections on focusing my works and many more things. It gets regular update. </p>
 
                     <div className="text-center text-light pb-4">
-                    <FontAwesomeIcon icon={faHtml5} className="ml-1 mr-1 fa-lg"/>
-                    <FontAwesomeIcon icon={faCss3Alt} className="ml-1 mr-1 fa-lg"/>
+                    <FontAwesomeIcon icon={faReact} className=" ml-1 mr-1 fa-lg"/>
                     <FontAwesomeIcon icon={faBootstrap} className="ml-1 mr-1 fa-lg"/>
                     <FontAwesomeIcon icon={faGithub} className="ml-1 mr-1 fa-lg"/>
                     </div>
 
-                         <div className="text-center">
-                        <a href="https://github.com/sunjid-git/Hotel-Adriano-Porco-Rosso/" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+                    <div className="text-center">
+                    <a href="https://github.com/sunjid-git/sunjid-portfolio-website" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
 
-                        <a href="https://sunjid-git.github.io/Hotel-Adriano-Porco-Rosso/" rel="noopener noreferrer" target="blank" >
-                        <FontAwesomeIcon icon={faGlobe} className=" text-success ml-5 fa-lg"/></a>
-                        </div>
-
+                    <a href="https://sunjid-hasan.web.app/" rel="noopener noreferrer" target="blank" >
+                    <FontAwesomeIcon icon={faGlobe} className=" text-success ml-5 fa-lg"/></a>
                     </div>
+
+                </div>
                 </div>
             </div>
 
@@ -141,28 +142,28 @@ const Works = () => {
 
                     </div>
                 </div>
-
                 <div className="col-md-4 d-flex justify-content-center">
-                <div className="projectCard mb-5">
-                    <img className="serviceImg" src={p6} alt=""/>
-                    <h5 className="text-center text-success p-3">Portfolio website</h5>
+                    <div className="projectCard mb-5">
+                        <img className="serviceImg" src={p3} alt=""/>
+                        <h5 className="text-center text-success p-3">Hotel Adriano</h5>
 
-                    <p className="p-2 text-center projectDesc">This is my personal portfolio website with minimalistic design implementation. Kept it simple and smooth. Includes several sections on focusing my projects, skills and educational background. </p>
+                        <p className="p-2 text-center projectDesc">Static restaurant website design with relevent product items and with some detailed information. It was designed to get a clear concept of basic web development.</p>
 
                     <div className="text-center text-light pb-4">
-                    <FontAwesomeIcon icon={faReact} className=" ml-1 mr-1 fa-lg"/>
+                    <FontAwesomeIcon icon={faHtml5} className="ml-1 mr-1 fa-lg"/>
+                    <FontAwesomeIcon icon={faCss3Alt} className="ml-1 mr-1 fa-lg"/>
                     <FontAwesomeIcon icon={faBootstrap} className="ml-1 mr-1 fa-lg"/>
                     <FontAwesomeIcon icon={faGithub} className="ml-1 mr-1 fa-lg"/>
                     </div>
 
-                    <div className="text-center">
-                    <a href="https://sunjid-hasan.web.app/" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
+                         <div className="text-center">
+                        <a href="https://github.com/sunjid-git/Hotel-Adriano-Porco-Rosso/" rel="noopener noreferrer" target="blank" ><FontAwesomeIcon icon={faGithub} className="text-success mr-5 fa-lg"/></a>
 
-                    <a href="https://github.com/sunjid-git/sunjid-portfolio-website" rel="noopener noreferrer" target="blank" >
-                    <FontAwesomeIcon icon={faGlobe} className=" text-success ml-5 fa-lg"/></a>
+                        <a href="https://sunjid-git.github.io/Hotel-Adriano-Porco-Rosso/" rel="noopener noreferrer" target="blank" >
+                        <FontAwesomeIcon icon={faGlobe} className=" text-success ml-5 fa-lg"/></a>
+                        </div>
+
                     </div>
-
-                </div>
                 </div>
             </div>
         </div>
