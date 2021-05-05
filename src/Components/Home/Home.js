@@ -15,6 +15,7 @@ const Home = () => {
             <Header></Header>
             <HomePage></HomePage>
             <Works></Works>
+            
             <Blog></Blog>
             <Contact></Contact>
             <Footer></Footer>
