@@ -14,7 +14,7 @@ const Header = () => {
         <div class="container-fluid ml-4 mr-4">
         <h1 className="navbar-brand font-weight-bold">
             <Link className="text-success text-decoration-none" to={`/`}>
-           Sunjid Hasan
+                Sunjid Hasan
             </Link>
            <FontAwesomeIcon icon={faRedhat} className="sideIcon ml-2 text-light fa-lg" /> 
             </h1>
@@ -38,7 +38,7 @@ const Header = () => {
                 </p>
 
                 <p className="nav-link active">
-                <Link className="text-light" to={`/blog`}>Blog</Link>
+                <Link className="text-light" to={`/blog`}>Blogs</Link>
                 </p>
 
                 <p className="nav-link active">

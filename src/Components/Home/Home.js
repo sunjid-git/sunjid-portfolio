@@ -5,6 +5,7 @@ import FixedSideBar from '../FixedSideBar/FixedSideBar';
 import HomePage from '../HomePage/HomePage';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
+import Skills from '../Skills/Skills';
 import Works from '../Works/Works';
 import './Home.css';
 
@@ -14,8 +15,8 @@ const Home = () => {
             <FixedSideBar></FixedSideBar>
             <Header></Header>
             <HomePage></HomePage>
+            <Skills></Skills>
             <Works></Works>
-            
             <Blog></Blog>
             <Contact></Contact>
             <Footer></Footer>

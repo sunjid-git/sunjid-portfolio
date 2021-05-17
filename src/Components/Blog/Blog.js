@@ -9,7 +9,7 @@ const Blog = () => {
         <div className="background">
             <div className="container">
             <h1 className="text-center text-success font-weight-bolder p-5">
-                Blog
+                My Blogs
             </h1>
             <div className="row">
                     

@@ -1,3 +1,4 @@
+
 .aboutSection{
     height: 600px;
 }
@@ -49,8 +50,6 @@
     text-decoration: none;
     transition: .5s ease-out;
 }
-
-/* --------------------------------  */
 
 *{
     margin: 0;

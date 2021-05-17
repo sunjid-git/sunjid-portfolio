@@ -15,7 +15,7 @@ const Works = () => {
     return (
         <section className="background">
         <div className="container">
-            <h1 className="text-center text-success font-weight-bolder mb-5 pt-5">Works</h1>
+            <h1 className="text-center text-success font-weight-bolder mb-5 pt-5">My Works</h1>
             <div className="row">
                     
                 <div className="col-md-4 d-flex justify-content-center">
