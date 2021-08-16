@@ -14,7 +14,7 @@
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 
 
-### 📫 Find Me here
+### 📫 Find Me here...
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-05122A?style=flat&logo=Linkedin&logoColor=blue)](https://www.linkedin.com/in/sunjid-in/)&nbsp;
 
 [![Gmail](https://img.shields.io/badge/-Gmail-05122A?style=flat&logo=Gmail&logoColor=red)](mailto:sunjid.info@gmail.com)&nbsp;
